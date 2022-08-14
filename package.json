@@ -1,0 +1,44 @@
+{
+  "name": "thebumpaster_socketio",
+  "version": "1.0.0",
+  "description": "Job Queue Messaging and TCP Notifications Server",
+  "main": "index.js",
+  "scripts": {
+    "dev": "tsnd --respawn src/app.ts",
+    "build": "tsc",
+    "start": "node dist/app.js",
+    "lint": "eslint --ext .js,.ts ./src",
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AfterWorkx/thebumpaster_socketio.git"
+  },
+  "keywords": [
+    "socketio",
+    "nodejs",
+    "typescript"
+  ],
+  "author": "TheBumpaster",
+  "license": "SEE LICENSE IN LICENSE",
+  "bugs": {
+    "url": "https://github.com/AfterWorkx/thebumpaster_socketio/issues"
+  },
+  "homepage": "https://github.com/AfterWorkx/thebumpaster_socketio#readme",
+  "dependencies": {
+    "i18n": "^0.15.0",
+    "socket.io": "^4.5.1",
+    "winston": "^3.8.1"
+  },
+  "devDependencies": {
+    "@types/i18n": "^0.13.4",
+    "@types/node": "^18.7.2",
+    "@typescript-eslint/eslint-plugin": "^5.33.0",
+    "@typescript-eslint/parser": "^5.33.0",
+    "dotenv": "^16.0.1",
+    "eslint": "^8.21.0",
+    "eslint-config-prettier": "^8.5.0",
+    "ts-node-dev": "^2.0.0",
+    "typescript": "^4.7.4"
+  }
+}

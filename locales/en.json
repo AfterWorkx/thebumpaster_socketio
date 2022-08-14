@@ -1,0 +1,4 @@
+{
+  "resource_not_found": "Requested resource have not been found on this service.",
+  "internal_server_error": "Internal server error. Contact the administrator."
+}
